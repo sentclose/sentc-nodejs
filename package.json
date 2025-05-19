@@ -1,7 +1,40 @@
 {
   "name": "@sentclose/sentc-nodejs",
   "version": "0.15.0",
+  "description": "End-to-end encryption sdk",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sentclose/sentc-javascript.git"
+  },
+  "keywords": [
+    "end-to-end-encryption",
+    "sdk",
+    "sentclose",
+    "sentc"
+  ],
+  "author": {
+    "name": "Sentclose",
+    "email": "contact@sentclose.com",
+    "url": "https://sentclose.com/"
+  },
+  "collaborators": [
+    {
+      "name": "Jörn Heinemann",
+      "email": "j.heinemann@sentclose.com"
+    }
+  ],
+  "license": "AGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/sentclose/sentc-javascript/issues"
+  },
+  "homepage": "https://sentc.com/",
   "main": "dist/index.js",
+  "files": [
+    "dist/",
+    "LICENSE",
+    "CHANGELOG.md",
+    "README.md"
+  ],
   "scripts": {
     "ts:check": "tsc -p .",
     "ts:build": "tsc -p tsconfig.build.json",
@@ -10,9 +43,6 @@
     "test": "npm run test:integration",
     "test:integration": "mocha -r ts-node/register 'tests/**/*Tests.ts' --exit --timeout 10000"
   },
-  "author": "",
-  "license": "AGPL-3.0",
-  "description": "",
   "dependencies": {
     "@sentclose/sentc-common": "0.10.1",
     "@sentclose/sentc_node_js": "file:../sentc_node_js_rust"
