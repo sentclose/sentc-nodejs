@@ -1,6 +1,6 @@
 /**
  * @author Jörn Heinemann <joernheinemann@gmx.de>
- * @since 2022/08/12
+ * @since 2025/05/18
  */
 import {
 	FileCreateOutput,
