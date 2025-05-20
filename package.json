@@ -41,7 +41,8 @@
     "build": "npm run ts:build",
     "lint": "eslint . --ext .ts",
     "test": "npm run test:integration",
-    "test:integration": "mocha -r ts-node/register 'tests/**/*Tests.ts' --exit --timeout 10000"
+    "test:integration": "mocha -r ts-node/register 'tests/**/*Tests.ts' --exit --timeout 10000",
+    "prepare": "npm run build"
   },
   "dependencies": {
     "@sentclose/sentc-common": "0.10.1",
