@@ -1,6 +1,6 @@
 {
   "name": "@sentclose/sentc-nodejs",
-  "version": "0.15.0",
+  "version": "0.15.1",
   "description": "End-to-end encryption sdk",
   "repository": {
     "type": "git",
@@ -46,7 +46,7 @@
   },
   "dependencies": {
     "@sentclose/sentc-common": "0.10.1",
-    "@sentclose/sentc_node_js": "file:../sentc_node_js_rust"
+    "@sentclose/sentc_node_js": "0.15.0"
   },
   "devDependencies": {
     "@types/node": "^22.15.18",
